@@ -51,11 +51,5 @@ namespace GUI_TESSA
         {
 
         }
-    } //Test
-    //dubbel test
-    //triple test
-    //last but not least
-    //quadra test
-    //bram
-    //Do you speak English motherfucker???
+    } 
 }
