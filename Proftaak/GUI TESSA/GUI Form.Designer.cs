@@ -88,6 +88,7 @@
             this.PbHam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PbHam.TabIndex = 0;
             this.PbHam.TabStop = false;
+            this.PbHam.Click += new System.EventHandler(this.PbHam_Click);
             // 
             // PbAugurk
             // 

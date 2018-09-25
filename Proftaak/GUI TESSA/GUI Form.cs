@@ -16,16 +16,17 @@ namespace GUI_TESSA
         {
             InitializeComponent();
         }
-
-
-
-
-
-
-
-
-
-
-
+        bool HamSelect = false;
+        private void PbHam_Click(object sender, EventArgs e)
+        {
+            if (HamSelect == true)
+            {
+                HamSelect = false;
+            }
+            else
+            {
+                HamSelect = true;
+            }
+        }
     } 
 }
