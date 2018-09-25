@@ -15,10 +15,12 @@ namespace Programma_TESSA
             if (HamSelect == true)
             {
                 HamSelect = false;
+                MessageBox.Show("Ham is niet geselecteerd.");
             }
             else
             {
                 HamSelect = true;
+                MessageBox.Show("Ham is geselecteerd.");
             }
 
         }
