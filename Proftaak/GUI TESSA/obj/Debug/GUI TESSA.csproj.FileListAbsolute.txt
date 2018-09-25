@@ -8,13 +8,13 @@ D:\School\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.csproj.GenerateResource.cache
 D:\School\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.csproj.CoreCompileInputs.cache
 D:\School\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.exe
 D:\School\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.pdb
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\bin\Debug\GUI TESSA.exe.config
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\bin\Debug\GUI TESSA.exe
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\bin\Debug\GUI TESSA.pdb
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.csprojAssemblyReference.cache
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI_TESSA.Form1.resources
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI_TESSA.Properties.Resources.resources
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.csproj.GenerateResource.cache
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.csproj.CoreCompileInputs.cache
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.exe
-D:\Documents\GitHub\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.pdb
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\bin\Debug\GUI TESSA.exe.config
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\bin\Debug\GUI TESSA.exe
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\bin\Debug\GUI TESSA.pdb
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.csprojAssemblyReference.cache
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI_TESSA.Form1.resources
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI_TESSA.Properties.Resources.resources
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.csproj.GenerateResource.cache
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.csproj.CoreCompileInputs.cache
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.exe
+C:\Users\markv\OneDrive\Documents\Proftaak\Proftaak\GUI TESSA\obj\Debug\GUI TESSA.pdb
