@@ -82,7 +82,7 @@
             this.PbHam.AccessibleName = "PbHam";
             this.PbHam.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbHam.Image = ((System.Drawing.Image)(resources.GetObject("PbHam.Image")));
-            this.PbHam.Location = new System.Drawing.Point(83, 16);
+            this.PbHam.Location = new System.Drawing.Point(71, 19);
             this.PbHam.Name = "PbHam";
             this.PbHam.Size = new System.Drawing.Size(115, 71);
             this.PbHam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,7 +127,7 @@
             // 
             this.PbSalami.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbSalami.Image = ((System.Drawing.Image)(resources.GetObject("PbSalami.Image")));
-            this.PbSalami.Location = new System.Drawing.Point(320, 16);
+            this.PbSalami.Location = new System.Drawing.Point(340, 55);
             this.PbSalami.Name = "PbSalami";
             this.PbSalami.Size = new System.Drawing.Size(115, 71);
             this.PbSalami.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -204,7 +204,7 @@
             // 
             this.PbKaas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbKaas.Image = ((System.Drawing.Image)(resources.GetObject("PbKaas.Image")));
-            this.PbKaas.Location = new System.Drawing.Point(320, 97);
+            this.PbKaas.Location = new System.Drawing.Point(83, 100);
             this.PbKaas.Name = "PbKaas";
             this.PbKaas.Size = new System.Drawing.Size(115, 71);
             this.PbKaas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -374,7 +374,7 @@
             // checkBox10
             // 
             this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(264, 49);
+            this.checkBox10.Location = new System.Drawing.Point(15, 55);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(50, 17);
             this.checkBox10.TabIndex = 29;
@@ -407,25 +407,17 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.PbHam);
-            this.groupBox2.Controls.Add(this.PbPeper);
-            this.groupBox2.Controls.Add(this.checkBox5);
             this.groupBox2.Controls.Add(this.checkBox10);
-            this.groupBox2.Controls.Add(this.checkBox4);
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.checkBox9);
-            this.groupBox2.Controls.Add(this.PbSla);
             this.groupBox2.Controls.Add(this.CbExtraHam);
-            this.groupBox2.Controls.Add(this.PbAugurk);
-            this.groupBox2.Controls.Add(this.PbTomaat);
-            this.groupBox2.Controls.Add(this.PbKaas);
             this.groupBox2.Controls.Add(this.checkBox8);
             this.groupBox2.Controls.Add(this.CbExtraTomaat);
-            this.groupBox2.Controls.Add(this.PbKip);
             this.groupBox2.Controls.Add(this.LbSla);
+            this.groupBox2.Controls.Add(this.PbKaas);
             this.groupBox2.Controls.Add(this.LbKaas);
             this.groupBox2.Controls.Add(this.CbExtraUi);
             this.groupBox2.Controls.Add(this.LbAugurk);
+            this.groupBox2.Controls.Add(this.PbHam);
             this.groupBox2.Controls.Add(this.PbSalami);
             this.groupBox2.Controls.Add(this.LbTomaat);
             this.groupBox2.Controls.Add(this.LbKip);
@@ -438,7 +430,6 @@
             this.groupBox2.Controls.Add(this.CbExtraKomKommer);
             this.groupBox2.Controls.Add(this.LbHam);
             this.groupBox2.Controls.Add(this.PbUi);
-            this.groupBox2.Controls.Add(this.PbHam);
             this.groupBox2.Location = new System.Drawing.Point(203, 4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(461, 470);
@@ -470,26 +461,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 486);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.checkBox10);
             this.Controls.Add(this.checkBox9);
             this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label5);
             this.Controls.Add(this.PbKip);
             this.Controls.Add(this.PbPeper);
             this.Controls.Add(this.PbSla);
-            this.Controls.Add(this.PbKaas);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.PbSalami);
             this.Controls.Add(this.PbTomaat);
             this.Controls.Add(this.PbAugurk);
-            this.Controls.Add(this.PbHam);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
@@ -507,6 +486,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
