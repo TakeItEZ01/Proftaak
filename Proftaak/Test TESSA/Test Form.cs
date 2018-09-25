@@ -17,32 +17,63 @@ namespace Test_TESSA
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            
-        }
+   
 
 
-        bool ham = false;
+        bool Ham = false;
+        bool Kaas = false;
+        bool Sla = false;
+
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-            if (ham == true)
+            if (Ham == true)
             {
-                ham = false;
-                MessageBox.Show("ham is niet meer geselcteerd");
+                Ham = false;
             }
 
             else
             {
-                ham = true;
-                MessageBox.Show("ham is geselcteerd");
+                Ham = true;
             }
         }
 
-        private void buttonTest_Click(object sender, EventArgs e)
-        {
 
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            if (Kaas == true)
+            {
+                Kaas = false;
+            }
+
+            else
+            {
+                Kaas = true;
+            }
+        }
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+        if (Sla == true)
+            {
+            Sla = false;
+            }
+        else
+           {
+            Sla = true;
+           }
 
         }
+
+     private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+   private void buttonTest_Click(object sender, EventArgs e)
+        {
+            
+        }
+
     }
 }
+
+     
