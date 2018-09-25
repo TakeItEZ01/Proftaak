@@ -88,6 +88,7 @@
             this.PbHam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PbHam.TabIndex = 0;
             this.PbHam.TabStop = false;
+            this.PbHam.Click += new System.EventHandler(this.PbHam_Click);
             // 
             // PbAugurk
             // 
@@ -143,6 +144,7 @@
             this.PbKomkommer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PbKomkommer.TabIndex = 5;
             this.PbKomkommer.TabStop = false;
+            this.PbKomkommer.Click += new System.EventHandler(this.PbKomkommer_Click);
             // 
             // LbKaas
             // 
@@ -436,6 +438,7 @@
             this.groupBox2.Controls.Add(this.CbExtraKomKommer);
             this.groupBox2.Controls.Add(this.LbHam);
             this.groupBox2.Controls.Add(this.PbUi);
+            this.groupBox2.Controls.Add(this.PbHam);
             this.groupBox2.Location = new System.Drawing.Point(203, 4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(461, 470);
@@ -467,6 +470,26 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 486);
             this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.checkBox10);
+            this.Controls.Add(this.checkBox9);
+            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.PbKip);
+            this.Controls.Add(this.PbPeper);
+            this.Controls.Add(this.PbSla);
+            this.Controls.Add(this.PbKaas);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.PbSalami);
+            this.Controls.Add(this.PbTomaat);
+            this.Controls.Add(this.PbAugurk);
+            this.Controls.Add(this.PbHam);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
