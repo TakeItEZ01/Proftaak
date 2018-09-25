@@ -165,7 +165,7 @@
             // LbHam
             // 
             this.LbHam.AutoSize = true;
-            this.LbHam.Location = new System.Drawing.Point(38, 33);
+            this.LbHam.Location = new System.Drawing.Point(36, 33);
             this.LbHam.Name = "LbHam";
             this.LbHam.Size = new System.Drawing.Size(29, 13);
             this.LbHam.TabIndex = 8;
@@ -174,7 +174,7 @@
             // LbTomaat
             // 
             this.LbTomaat.AutoSize = true;
-            this.LbTomaat.Location = new System.Drawing.Point(204, 414);
+            this.LbTomaat.Location = new System.Drawing.Point(264, 201);
             this.LbTomaat.Name = "LbTomaat";
             this.LbTomaat.Size = new System.Drawing.Size(43, 13);
             this.LbTomaat.TabIndex = 9;
@@ -272,7 +272,7 @@
             // LbKip
             // 
             this.LbKip.AutoSize = true;
-            this.LbKip.Location = new System.Drawing.Point(6, 395);
+            this.LbKip.Location = new System.Drawing.Point(43, 113);
             this.LbKip.Name = "LbKip";
             this.LbKip.Size = new System.Drawing.Size(22, 13);
             this.LbKip.TabIndex = 19;
@@ -292,7 +292,7 @@
             // CbExtraKomKommer
             // 
             this.CbExtraKomKommer.AutoSize = true;
-            this.CbExtraKomKommer.Location = new System.Drawing.Point(6, 138);
+            this.CbExtraKomKommer.Location = new System.Drawing.Point(18, 129);
             this.CbExtraKomKommer.Name = "CbExtraKomKommer";
             this.CbExtraKomKommer.Size = new System.Drawing.Size(50, 17);
             this.CbExtraKomKommer.TabIndex = 21;
@@ -342,7 +342,7 @@
             // CbExtraUi
             // 
             this.CbExtraUi.AutoSize = true;
-            this.CbExtraUi.Location = new System.Drawing.Point(0, 164);
+            this.CbExtraUi.Location = new System.Drawing.Point(264, 218);
             this.CbExtraUi.Name = "CbExtraUi";
             this.CbExtraUi.Size = new System.Drawing.Size(50, 17);
             this.CbExtraUi.TabIndex = 26;
@@ -362,7 +362,7 @@
             // checkBox9
             // 
             this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(17, 49);
+            this.checkBox9.Location = new System.Drawing.Point(18, 49);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(50, 17);
             this.checkBox9.TabIndex = 28;
