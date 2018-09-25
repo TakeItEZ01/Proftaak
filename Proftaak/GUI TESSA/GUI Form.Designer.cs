@@ -82,7 +82,7 @@
             this.PbHam.AccessibleName = "PbHam";
             this.PbHam.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbHam.Image = ((System.Drawing.Image)(resources.GetObject("PbHam.Image")));
-            this.PbHam.Location = new System.Drawing.Point(286, 16);
+            this.PbHam.Location = new System.Drawing.Point(86, 16);
             this.PbHam.Name = "PbHam";
             this.PbHam.Size = new System.Drawing.Size(115, 71);
             this.PbHam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -144,6 +144,7 @@
             this.PbKomkommer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PbKomkommer.TabIndex = 5;
             this.PbKomkommer.TabStop = false;
+            this.PbKomkommer.Click += new System.EventHandler(this.PbKomkommer_Click);
             // 
             // label1
             // 
@@ -417,6 +418,7 @@
             this.groupBox2.Controls.Add(this.checkBox2);
             this.groupBox2.Controls.Add(this.LbHam);
             this.groupBox2.Controls.Add(this.PbUi);
+            this.groupBox2.Controls.Add(this.PbHam);
             this.groupBox2.Location = new System.Drawing.Point(203, 4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(461, 470);
@@ -467,7 +469,6 @@
             this.Controls.Add(this.PbSalami);
             this.Controls.Add(this.PbTomaat);
             this.Controls.Add(this.PbAugurk);
-            this.Controls.Add(this.PbHam);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
