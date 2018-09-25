@@ -59,11 +59,11 @@
             this.CbExtraPeper = new System.Windows.Forms.CheckBox();
             this.CbExtraSla = new System.Windows.Forms.CheckBox();
             this.CbExtraSalami = new System.Windows.Forms.CheckBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.Lsb = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BtCancel = new System.Windows.Forms.Button();
+            this.BtOrder = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PbHam)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbAugurk)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbTomaat)).BeginInit();
@@ -382,23 +382,23 @@
             this.CbExtraSalami.Text = "Extra";
             this.CbExtraSalami.UseVisualStyleBackColor = true;
             // 
-            // listBox1
+            // Lsb
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Items.AddRange(new object[] {
+            this.Lsb.FormattingEnabled = true;
+            this.Lsb.Items.AddRange(new object[] {
             "special ",
             "enzo ",
             "die al ",
             "samen ",
             "gesteld zijn"});
-            this.listBox1.Location = new System.Drawing.Point(8, 19);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(174, 433);
-            this.listBox1.TabIndex = 30;
+            this.Lsb.Location = new System.Drawing.Point(8, 19);
+            this.Lsb.Name = "Lsb";
+            this.Lsb.Size = new System.Drawing.Size(174, 433);
+            this.Lsb.TabIndex = 30;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listBox1);
+            this.groupBox1.Controls.Add(this.Lsb);
             this.groupBox1.Location = new System.Drawing.Point(4, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(193, 470);
@@ -409,10 +409,10 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.CbExtraSla);
-            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.BtCancel);
             this.groupBox2.Controls.Add(this.CbExtraSalami);
             this.groupBox2.Controls.Add(this.CbExtraKip);
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.BtOrder);
             this.groupBox2.Controls.Add(this.CbExtraKaas);
             this.groupBox2.Controls.Add(this.CbExtraHam);
             this.groupBox2.Controls.Add(this.PbSla);
@@ -447,23 +447,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Ingredienten";
             // 
-            // button2
+            // BtCancel
             // 
-            this.button2.Location = new System.Drawing.Point(252, 441);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.BtCancel.Location = new System.Drawing.Point(252, 441);
+            this.BtCancel.Name = "BtCancel";
+            this.BtCancel.Size = new System.Drawing.Size(75, 23);
+            this.BtCancel.TabIndex = 1;
+            this.BtCancel.Text = "Cancel";
+            this.BtCancel.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // BtOrder
             // 
-            this.button1.Location = new System.Drawing.Point(345, 441);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Order";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtOrder.Location = new System.Drawing.Point(345, 441);
+            this.BtOrder.Name = "BtOrder";
+            this.BtOrder.Size = new System.Drawing.Size(75, 23);
+            this.BtOrder.TabIndex = 0;
+            this.BtOrder.Text = "Order";
+            this.BtOrder.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -523,11 +523,11 @@
         private System.Windows.Forms.CheckBox CbExtraPeper;
         private System.Windows.Forms.CheckBox CbExtraSla;
         private System.Windows.Forms.CheckBox CbExtraSalami;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox Lsb;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtCancel;
+        private System.Windows.Forms.Button BtOrder;
     }
 }
 
