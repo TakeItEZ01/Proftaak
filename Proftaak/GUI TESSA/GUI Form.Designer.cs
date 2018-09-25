@@ -51,14 +51,14 @@
             this.LbKip = new System.Windows.Forms.Label();
             this.CbExtraTomaat = new System.Windows.Forms.CheckBox();
             this.CbExtraKomKommer = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.CbExtraAugurk = new System.Windows.Forms.CheckBox();
+            this.CbExtraKaas = new System.Windows.Forms.CheckBox();
+            this.CbExtraKip = new System.Windows.Forms.CheckBox();
             this.CbExtraHam = new System.Windows.Forms.CheckBox();
             this.CbExtraUi = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.CbExtraPeper = new System.Windows.Forms.CheckBox();
+            this.CbExtraSla = new System.Windows.Forms.CheckBox();
+            this.CbExtraSalami = new System.Windows.Forms.CheckBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -195,7 +195,7 @@
             // LbUi
             // 
             this.LbUi.AutoSize = true;
-            this.LbUi.Location = new System.Drawing.Point(48, 373);
+            this.LbUi.Location = new System.Drawing.Point(48, 367);
             this.LbUi.Name = "LbUi";
             this.LbUi.Size = new System.Drawing.Size(17, 13);
             this.LbUi.TabIndex = 11;
@@ -285,7 +285,7 @@
             // 
             this.CbExtraTomaat.AutoSize = true;
             this.CbExtraTomaat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.CbExtraTomaat.Location = new System.Drawing.Point(249, 61);
+            this.CbExtraTomaat.Location = new System.Drawing.Point(249, 133);
             this.CbExtraTomaat.Name = "CbExtraTomaat";
             this.CbExtraTomaat.Size = new System.Drawing.Size(50, 17);
             this.CbExtraTomaat.TabIndex = 20;
@@ -295,42 +295,42 @@
             // CbExtraKomKommer
             // 
             this.CbExtraKomKommer.AutoSize = true;
-            this.CbExtraKomKommer.Location = new System.Drawing.Point(18, 129);
+            this.CbExtraKomKommer.Location = new System.Drawing.Point(249, 221);
             this.CbExtraKomKommer.Name = "CbExtraKomKommer";
             this.CbExtraKomKommer.Size = new System.Drawing.Size(50, 17);
             this.CbExtraKomKommer.TabIndex = 21;
             this.CbExtraKomKommer.Text = "Extra";
             this.CbExtraKomKommer.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // CbExtraAugurk
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(252, 301);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(50, 17);
-            this.checkBox3.TabIndex = 22;
-            this.checkBox3.Text = "Extra";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.CbExtraAugurk.AutoSize = true;
+            this.CbExtraAugurk.Location = new System.Drawing.Point(252, 301);
+            this.CbExtraAugurk.Name = "CbExtraAugurk";
+            this.CbExtraAugurk.Size = new System.Drawing.Size(50, 17);
+            this.CbExtraAugurk.TabIndex = 22;
+            this.CbExtraAugurk.Text = "Extra";
+            this.CbExtraAugurk.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // CbExtraKaas
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(18, 221);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(50, 17);
-            this.checkBox4.TabIndex = 23;
-            this.checkBox4.Text = "Extra";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.CbExtraKaas.AutoSize = true;
+            this.CbExtraKaas.Location = new System.Drawing.Point(18, 221);
+            this.CbExtraKaas.Name = "CbExtraKaas";
+            this.CbExtraKaas.Size = new System.Drawing.Size(50, 17);
+            this.CbExtraKaas.TabIndex = 23;
+            this.CbExtraKaas.Text = "Extra";
+            this.CbExtraKaas.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // CbExtraKip
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(18, 389);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(50, 17);
-            this.checkBox5.TabIndex = 24;
-            this.checkBox5.Text = "Extra";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.CbExtraKip.AutoSize = true;
+            this.CbExtraKip.Location = new System.Drawing.Point(15, 133);
+            this.CbExtraKip.Name = "CbExtraKip";
+            this.CbExtraKip.Size = new System.Drawing.Size(50, 17);
+            this.CbExtraKip.TabIndex = 24;
+            this.CbExtraKip.Text = "Extra";
+            this.CbExtraKip.UseVisualStyleBackColor = true;
             // 
             // CbExtraHam
             // 
@@ -345,42 +345,42 @@
             // CbExtraUi
             // 
             this.CbExtraUi.AutoSize = true;
-            this.CbExtraUi.Location = new System.Drawing.Point(249, 221);
+            this.CbExtraUi.Location = new System.Drawing.Point(18, 383);
             this.CbExtraUi.Name = "CbExtraUi";
             this.CbExtraUi.Size = new System.Drawing.Size(50, 17);
             this.CbExtraUi.TabIndex = 26;
             this.CbExtraUi.Text = "Extra";
             this.CbExtraUi.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // CbExtraPeper
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(249, 383);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(50, 17);
-            this.checkBox8.TabIndex = 27;
-            this.checkBox8.Text = "Extra";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.CbExtraPeper.AutoSize = true;
+            this.CbExtraPeper.Location = new System.Drawing.Point(249, 383);
+            this.CbExtraPeper.Name = "CbExtraPeper";
+            this.CbExtraPeper.Size = new System.Drawing.Size(50, 17);
+            this.CbExtraPeper.TabIndex = 27;
+            this.CbExtraPeper.Text = "Extra";
+            this.CbExtraPeper.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // CbExtraSla
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(18, 301);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(50, 17);
-            this.checkBox9.TabIndex = 28;
-            this.checkBox9.Text = "Extra";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.CbExtraSla.AutoSize = true;
+            this.CbExtraSla.Location = new System.Drawing.Point(18, 301);
+            this.CbExtraSla.Name = "CbExtraSla";
+            this.CbExtraSla.Size = new System.Drawing.Size(50, 17);
+            this.CbExtraSla.TabIndex = 28;
+            this.CbExtraSla.Text = "Extra";
+            this.CbExtraSla.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // CbExtraSalami
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(249, 133);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(50, 17);
-            this.checkBox10.TabIndex = 29;
-            this.checkBox10.Text = "Extra";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.CbExtraSalami.AutoSize = true;
+            this.CbExtraSalami.Location = new System.Drawing.Point(249, 61);
+            this.CbExtraSalami.Name = "CbExtraSalami";
+            this.CbExtraSalami.Size = new System.Drawing.Size(50, 17);
+            this.CbExtraSalami.TabIndex = 29;
+            this.CbExtraSalami.Text = "Extra";
+            this.CbExtraSalami.UseVisualStyleBackColor = true;
             // 
             // listBox1
             // 
@@ -408,18 +408,18 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.checkBox9);
+            this.groupBox2.Controls.Add(this.CbExtraSla);
             this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.checkBox10);
-            this.groupBox2.Controls.Add(this.checkBox5);
+            this.groupBox2.Controls.Add(this.CbExtraSalami);
+            this.groupBox2.Controls.Add(this.CbExtraKip);
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.checkBox4);
+            this.groupBox2.Controls.Add(this.CbExtraKaas);
             this.groupBox2.Controls.Add(this.CbExtraHam);
             this.groupBox2.Controls.Add(this.PbSla);
             this.groupBox2.Controls.Add(this.PbKip);
             this.groupBox2.Controls.Add(this.PbAugurk);
             this.groupBox2.Controls.Add(this.PbTomaat);
-            this.groupBox2.Controls.Add(this.checkBox8);
+            this.groupBox2.Controls.Add(this.CbExtraPeper);
             this.groupBox2.Controls.Add(this.PbPeper);
             this.groupBox2.Controls.Add(this.CbExtraTomaat);
             this.groupBox2.Controls.Add(this.LbSla);
@@ -435,7 +435,7 @@
             this.groupBox2.Controls.Add(this.LbUi);
             this.groupBox2.Controls.Add(this.PbKomkommer);
             this.groupBox2.Controls.Add(this.LbSalami);
-            this.groupBox2.Controls.Add(this.checkBox3);
+            this.groupBox2.Controls.Add(this.CbExtraAugurk);
             this.groupBox2.Controls.Add(this.LbKomkommer);
             this.groupBox2.Controls.Add(this.CbExtraKomKommer);
             this.groupBox2.Controls.Add(this.LbHam);
@@ -515,14 +515,14 @@
         private System.Windows.Forms.Label LbKip;
         private System.Windows.Forms.CheckBox CbExtraTomaat;
         private System.Windows.Forms.CheckBox CbExtraKomKommer;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox CbExtraAugurk;
+        private System.Windows.Forms.CheckBox CbExtraKaas;
+        private System.Windows.Forms.CheckBox CbExtraKip;
         private System.Windows.Forms.CheckBox CbExtraHam;
         private System.Windows.Forms.CheckBox CbExtraUi;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox CbExtraPeper;
+        private System.Windows.Forms.CheckBox CbExtraSla;
+        private System.Windows.Forms.CheckBox CbExtraSalami;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
