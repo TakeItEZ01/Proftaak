@@ -74,6 +74,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PbSla)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbPeper)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbKip)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,7 +83,7 @@
             this.PbHam.AccessibleName = "PbHam";
             this.PbHam.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbHam.Image = ((System.Drawing.Image)(resources.GetObject("PbHam.Image")));
-            this.PbHam.Location = new System.Drawing.Point(71, 19);
+            this.PbHam.Location = new System.Drawing.Point(71, 33);
             this.PbHam.Name = "PbHam";
             this.PbHam.Size = new System.Drawing.Size(115, 71);
             this.PbHam.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -94,7 +95,7 @@
             // 
             this.PbAugurk.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbAugurk.Image = ((System.Drawing.Image)(resources.GetObject("PbAugurk.Image")));
-            this.PbAugurk.Location = new System.Drawing.Point(320, 258);
+            this.PbAugurk.Location = new System.Drawing.Point(305, 273);
             this.PbAugurk.Name = "PbAugurk";
             this.PbAugurk.Size = new System.Drawing.Size(115, 71);
             this.PbAugurk.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -105,7 +106,7 @@
             // 
             this.PbTomaat.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbTomaat.Image = ((System.Drawing.Image)(resources.GetObject("PbTomaat.Image")));
-            this.PbTomaat.Location = new System.Drawing.Point(320, 181);
+            this.PbTomaat.Location = new System.Drawing.Point(305, 113);
             this.PbTomaat.Name = "PbTomaat";
             this.PbTomaat.Size = new System.Drawing.Size(115, 71);
             this.PbTomaat.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -116,7 +117,7 @@
             // 
             this.PbUi.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbUi.Image = ((System.Drawing.Image)(resources.GetObject("PbUi.Image")));
-            this.PbUi.Location = new System.Drawing.Point(83, 337);
+            this.PbUi.Location = new System.Drawing.Point(71, 355);
             this.PbUi.Name = "PbUi";
             this.PbUi.Size = new System.Drawing.Size(115, 71);
             this.PbUi.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -127,7 +128,7 @@
             // 
             this.PbSalami.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbSalami.Image = ((System.Drawing.Image)(resources.GetObject("PbSalami.Image")));
-            this.PbSalami.Location = new System.Drawing.Point(340, 55);
+            this.PbSalami.Location = new System.Drawing.Point(305, 33);
             this.PbSalami.Name = "PbSalami";
             this.PbSalami.Size = new System.Drawing.Size(115, 71);
             this.PbSalami.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -138,7 +139,7 @@
             // 
             this.PbKomkommer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbKomkommer.Image = ((System.Drawing.Image)(resources.GetObject("PbKomkommer.Image")));
-            this.PbKomkommer.Location = new System.Drawing.Point(83, 257);
+            this.PbKomkommer.Location = new System.Drawing.Point(305, 190);
             this.PbKomkommer.Name = "PbKomkommer";
             this.PbKomkommer.Size = new System.Drawing.Size(115, 71);
             this.PbKomkommer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +150,7 @@
             // LbKaas
             // 
             this.LbKaas.AutoSize = true;
-            this.LbKaas.Location = new System.Drawing.Point(276, 113);
+            this.LbKaas.Location = new System.Drawing.Point(34, 205);
             this.LbKaas.Name = "LbKaas";
             this.LbKaas.Size = new System.Drawing.Size(31, 13);
             this.LbKaas.TabIndex = 6;
@@ -158,7 +159,7 @@
             // LbKomkommer
             // 
             this.LbKomkommer.AutoSize = true;
-            this.LbKomkommer.Location = new System.Drawing.Point(0, 315);
+            this.LbKomkommer.Location = new System.Drawing.Point(234, 205);
             this.LbKomkommer.Name = "LbKomkommer";
             this.LbKomkommer.Size = new System.Drawing.Size(65, 13);
             this.LbKomkommer.TabIndex = 7;
@@ -167,7 +168,7 @@
             // LbHam
             // 
             this.LbHam.AutoSize = true;
-            this.LbHam.Location = new System.Drawing.Point(36, 33);
+            this.LbHam.Location = new System.Drawing.Point(39, 45);
             this.LbHam.Name = "LbHam";
             this.LbHam.Size = new System.Drawing.Size(29, 13);
             this.LbHam.TabIndex = 8;
@@ -176,7 +177,7 @@
             // LbTomaat
             // 
             this.LbTomaat.AutoSize = true;
-            this.LbTomaat.Location = new System.Drawing.Point(264, 201);
+            this.LbTomaat.Location = new System.Drawing.Point(256, 117);
             this.LbTomaat.Name = "LbTomaat";
             this.LbTomaat.Size = new System.Drawing.Size(43, 13);
             this.LbTomaat.TabIndex = 9;
@@ -185,7 +186,7 @@
             // LbSla
             // 
             this.LbSla.AutoSize = true;
-            this.LbSla.Location = new System.Drawing.Point(145, 446);
+            this.LbSla.Location = new System.Drawing.Point(43, 285);
             this.LbSla.Name = "LbSla";
             this.LbSla.Size = new System.Drawing.Size(22, 13);
             this.LbSla.TabIndex = 10;
@@ -194,7 +195,7 @@
             // LbUi
             // 
             this.LbUi.AutoSize = true;
-            this.LbUi.Location = new System.Drawing.Point(50, 363);
+            this.LbUi.Location = new System.Drawing.Point(48, 373);
             this.LbUi.Name = "LbUi";
             this.LbUi.Size = new System.Drawing.Size(17, 13);
             this.LbUi.TabIndex = 11;
@@ -204,7 +205,7 @@
             // 
             this.PbKaas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbKaas.Image = ((System.Drawing.Image)(resources.GetObject("PbKaas.Image")));
-            this.PbKaas.Location = new System.Drawing.Point(83, 100);
+            this.PbKaas.Location = new System.Drawing.Point(71, 190);
             this.PbKaas.Name = "PbKaas";
             this.PbKaas.Size = new System.Drawing.Size(115, 71);
             this.PbKaas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -215,7 +216,7 @@
             // 
             this.PbSla.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbSla.Image = ((System.Drawing.Image)(resources.GetObject("PbSla.Image")));
-            this.PbSla.Location = new System.Drawing.Point(83, 174);
+            this.PbSla.Location = new System.Drawing.Point(71, 273);
             this.PbSla.Name = "PbSla";
             this.PbSla.Size = new System.Drawing.Size(115, 71);
             this.PbSla.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -226,7 +227,7 @@
             // 
             this.PbPeper.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbPeper.Image = ((System.Drawing.Image)(resources.GetObject("PbPeper.Image")));
-            this.PbPeper.Location = new System.Drawing.Point(320, 337);
+            this.PbPeper.Location = new System.Drawing.Point(305, 355);
             this.PbPeper.Name = "PbPeper";
             this.PbPeper.Size = new System.Drawing.Size(115, 71);
             this.PbPeper.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -237,7 +238,7 @@
             // 
             this.PbKip.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.PbKip.Image = ((System.Drawing.Image)(resources.GetObject("PbKip.Image")));
-            this.PbKip.Location = new System.Drawing.Point(83, 97);
+            this.PbKip.Location = new System.Drawing.Point(71, 113);
             this.PbKip.Name = "PbKip";
             this.PbKip.Size = new System.Drawing.Size(115, 71);
             this.PbKip.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -247,7 +248,7 @@
             // LbPeper
             // 
             this.LbPeper.AutoSize = true;
-            this.LbPeper.Location = new System.Drawing.Point(15, 436);
+            this.LbPeper.Location = new System.Drawing.Point(264, 367);
             this.LbPeper.Name = "LbPeper";
             this.LbPeper.Size = new System.Drawing.Size(35, 13);
             this.LbPeper.TabIndex = 16;
@@ -256,7 +257,7 @@
             // LbAugurk
             // 
             this.LbAugurk.AutoSize = true;
-            this.LbAugurk.Location = new System.Drawing.Point(80, 436);
+            this.LbAugurk.Location = new System.Drawing.Point(258, 285);
             this.LbAugurk.Name = "LbAugurk";
             this.LbAugurk.Size = new System.Drawing.Size(41, 13);
             this.LbAugurk.TabIndex = 17;
@@ -265,7 +266,7 @@
             // LbSalami
             // 
             this.LbSalami.AutoSize = true;
-            this.LbSalami.Location = new System.Drawing.Point(276, 33);
+            this.LbSalami.Location = new System.Drawing.Point(261, 45);
             this.LbSalami.Name = "LbSalami";
             this.LbSalami.Size = new System.Drawing.Size(38, 13);
             this.LbSalami.TabIndex = 18;
@@ -274,7 +275,7 @@
             // LbKip
             // 
             this.LbKip.AutoSize = true;
-            this.LbKip.Location = new System.Drawing.Point(43, 113);
+            this.LbKip.Location = new System.Drawing.Point(43, 117);
             this.LbKip.Name = "LbKip";
             this.LbKip.Size = new System.Drawing.Size(22, 13);
             this.LbKip.TabIndex = 19;
@@ -284,7 +285,7 @@
             // 
             this.CbExtraTomaat.AutoSize = true;
             this.CbExtraTomaat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
-            this.CbExtraTomaat.Location = new System.Drawing.Point(0, 201);
+            this.CbExtraTomaat.Location = new System.Drawing.Point(249, 61);
             this.CbExtraTomaat.Name = "CbExtraTomaat";
             this.CbExtraTomaat.Size = new System.Drawing.Size(50, 17);
             this.CbExtraTomaat.TabIndex = 20;
@@ -304,7 +305,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(0, 235);
+            this.checkBox3.Location = new System.Drawing.Point(252, 301);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(50, 17);
             this.checkBox3.TabIndex = 22;
@@ -314,7 +315,7 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(370, 418);
+            this.checkBox4.Location = new System.Drawing.Point(18, 221);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(50, 17);
             this.checkBox4.TabIndex = 23;
@@ -324,7 +325,7 @@
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(264, 418);
+            this.checkBox5.Location = new System.Drawing.Point(18, 389);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(50, 17);
             this.checkBox5.TabIndex = 24;
@@ -334,7 +335,7 @@
             // CbExtraHam
             // 
             this.CbExtraHam.AutoSize = true;
-            this.CbExtraHam.Location = new System.Drawing.Point(264, 129);
+            this.CbExtraHam.Location = new System.Drawing.Point(18, 61);
             this.CbExtraHam.Name = "CbExtraHam";
             this.CbExtraHam.Size = new System.Drawing.Size(50, 17);
             this.CbExtraHam.TabIndex = 25;
@@ -344,7 +345,7 @@
             // CbExtraUi
             // 
             this.CbExtraUi.AutoSize = true;
-            this.CbExtraUi.Location = new System.Drawing.Point(264, 218);
+            this.CbExtraUi.Location = new System.Drawing.Point(249, 221);
             this.CbExtraUi.Name = "CbExtraUi";
             this.CbExtraUi.Size = new System.Drawing.Size(50, 17);
             this.CbExtraUi.TabIndex = 26;
@@ -354,7 +355,7 @@
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(0, 273);
+            this.checkBox8.Location = new System.Drawing.Point(249, 383);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(50, 17);
             this.checkBox8.TabIndex = 27;
@@ -364,7 +365,7 @@
             // checkBox9
             // 
             this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(18, 49);
+            this.checkBox9.Location = new System.Drawing.Point(18, 301);
             this.checkBox9.Name = "checkBox9";
             this.checkBox9.Size = new System.Drawing.Size(50, 17);
             this.checkBox9.TabIndex = 28;
@@ -374,7 +375,7 @@
             // checkBox10
             // 
             this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(15, 55);
+            this.checkBox10.Location = new System.Drawing.Point(249, 133);
             this.checkBox10.Name = "checkBox10";
             this.checkBox10.Size = new System.Drawing.Size(50, 17);
             this.checkBox10.TabIndex = 29;
@@ -390,13 +391,14 @@
             "die al ",
             "samen ",
             "gesteld zijn"});
-            this.listBox1.Location = new System.Drawing.Point(12, 20);
+            this.listBox1.Location = new System.Drawing.Point(8, 19);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(174, 433);
             this.listBox1.TabIndex = 30;
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.listBox1);
             this.groupBox1.Location = new System.Drawing.Point(4, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(193, 470);
@@ -406,11 +408,19 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.checkBox9);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.checkBox10);
+            this.groupBox2.Controls.Add(this.checkBox5);
             this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.checkBox4);
             this.groupBox2.Controls.Add(this.CbExtraHam);
+            this.groupBox2.Controls.Add(this.PbSla);
+            this.groupBox2.Controls.Add(this.PbKip);
+            this.groupBox2.Controls.Add(this.PbAugurk);
+            this.groupBox2.Controls.Add(this.PbTomaat);
             this.groupBox2.Controls.Add(this.checkBox8);
+            this.groupBox2.Controls.Add(this.PbPeper);
             this.groupBox2.Controls.Add(this.CbExtraTomaat);
             this.groupBox2.Controls.Add(this.LbSla);
             this.groupBox2.Controls.Add(this.PbKaas);
@@ -460,15 +470,6 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 486);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.PbKip);
-            this.Controls.Add(this.PbPeper);
-            this.Controls.Add(this.PbSla);
-            this.Controls.Add(this.PbTomaat);
-            this.Controls.Add(this.PbAugurk);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
@@ -483,10 +484,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.PbSla)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbPeper)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbKip)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
