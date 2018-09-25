@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Programma_TESSA
 {
-    public partial class Form1 : Form
+    public partial class TESSA : Form
     {
-        public Form1()
+        public TESSA()
         {
             InitializeComponent();
+        }
+        bool HamSelect = false;
+        private void Ham_Click(object sender, EventArgs e)
+        {
+            bool HamSelect = true;
         }
     }
 }

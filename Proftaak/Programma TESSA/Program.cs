@@ -16,7 +16,7 @@ namespace Programma_TESSA
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new TESSA());
         }
     }
 }
