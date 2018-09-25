@@ -56,7 +56,6 @@ namespace GUI_TESSA
     //triple test
     //last but not least
     //quadra test
-    //My man
 
-
+    //Do you speak English motherfucker???
 }
