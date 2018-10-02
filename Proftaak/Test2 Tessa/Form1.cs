@@ -52,7 +52,7 @@ namespace Test2_Tessa
         {
             CheckBox[] Extra = new CheckBox[10] {CbExtraHam, CbExtraSalami, CbExtraKip, CbExtraTomaat, CbExtraKaas, CbExtraKomKommer, CbExtraSla, CbExtraAugurk, CbExtraUi, CbExtraPeper };
             PictureBox[] Ingredients = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
-            for (int i = 0; i < 10; i++)   n
+            for (int i = 0; i < 10; i++)   
             {
                 if (Ingredients[i].Tag == "Clicked")
                 {
