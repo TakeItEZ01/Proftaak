@@ -93,10 +93,8 @@
             this.Lsb.FormattingEnabled = true;
             this.Lsb.Items.AddRange(new object[] {
             "Broodje kaas",
-            "enzo ",
-            "die al ",
-            "samen ",
-            "gesteld zijn"});
+            "Broodje Ham kaas",
+            "Broodje gezond"});
             this.Lsb.Location = new System.Drawing.Point(8, 19);
             this.Lsb.Name = "Lsb";
             this.Lsb.Size = new System.Drawing.Size(174, 433);

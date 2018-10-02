@@ -77,9 +77,40 @@ namespace Test2_Tessa
             }
         }
 
+        private void Lsb_SelectedIndexChanged(object sender, EventArgs e)   // this code is ugly ---> needs to change
+        {
+            ListBox listbox = (ListBox)sender;
 
+            if (listbox.SelectedIndex == 0)       //broodje kaas
+            {
+                PbKaas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                PbKaas.Tag = "Clicked";
+                CbExtraKaas.Checked = true;
+            }
 
+            if (listbox.SelectedIndex == 1)       //broodje ham kaas
+            {
+                PbKaas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                PbKaas.Tag = "Clicked";
 
+                PbHam.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                PbHam.Tag = "Clicked";
+
+            }
+
+            if (listbox.SelectedIndex == 2)       //broodje gezond
+            {
+                PbKaas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                PbKaas.Tag = "Clicked";
+
+                PbTomaat.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                PbTomaat.Tag = "Clicked";
+
+                PbSla.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                PbSla.Tag = "Clicked";
+
+            }
+        }
 
 
 
@@ -92,17 +123,5 @@ namespace Test2_Tessa
 
 
 
-
-        private void Lsb_SelectedIndexChanged(object sender, EventArgs e) //broodje kaas
-        {
-            ListBox listbox = (ListBox)sender;
-            if (listbox.SelectedIndex == 0)
-            {
-                PbKaas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-                PbKaas.Tag = "Clicked";
-                CbExtraKaas.Checked = true;
-
-            }
-        }
     }
 }
