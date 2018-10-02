@@ -40,15 +40,7 @@ namespace Test_TESSA
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (Kaas == true)
-            {
-                Kaas = false;
-            }
-
-            else
-            {
-                Kaas = true;
-            }
+            MessageBox.Show("test");
         }
         private void pictureBox1_Click_2(object sender, EventArgs e)
         {
@@ -73,6 +65,10 @@ namespace Test_TESSA
             
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

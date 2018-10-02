@@ -63,7 +63,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(482, 42);
+            this.pictureBox1.Location = new System.Drawing.Point(309, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(85, 77);
             this.pictureBox1.TabIndex = 2;
@@ -73,7 +73,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Test_TESSA.Properties.Resources.geel;
-            this.pictureBox2.Location = new System.Drawing.Point(269, 42);
+            this.pictureBox2.Location = new System.Drawing.Point(121, 153);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(167, 157);
             this.pictureBox2.TabIndex = 3;
@@ -91,6 +91,7 @@
             this.Controls.Add(this.TestPic);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TestPic)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

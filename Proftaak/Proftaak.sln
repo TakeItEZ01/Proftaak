@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programma TESSA", "Programm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test TESSA", "Test TESSA\Test TESSA.csproj", "{6A919D2C-DE12-4AEC-B52A-8BB9F10A2408}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2 Tessa", "Test2 Tessa\Test2 Tessa.csproj", "{B46C5A59-EC60-48B8-9978-67198078554E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6A919D2C-DE12-4AEC-B52A-8BB9F10A2408}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A919D2C-DE12-4AEC-B52A-8BB9F10A2408}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A919D2C-DE12-4AEC-B52A-8BB9F10A2408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46C5A59-EC60-48B8-9978-67198078554E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46C5A59-EC60-48B8-9978-67198078554E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46C5A59-EC60-48B8-9978-67198078554E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46C5A59-EC60-48B8-9978-67198078554E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
