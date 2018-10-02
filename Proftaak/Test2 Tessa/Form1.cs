@@ -52,6 +52,35 @@ namespace Test2_Tessa
         {
             CheckBox[] Extra = new CheckBox[10] {CbExtraHam, CbExtraSalami, CbExtraKip, CbExtraTomaat, CbExtraKaas, CbExtraKomKommer, CbExtraSla, CbExtraAugurk, CbExtraUi, CbExtraPeper };
             PictureBox[] Ingredients = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
+            for (int i = 0; i < 10; i++)
+            {
+                if (Extra[i].Checked == true && Ingredients[i].Tag != "Clicked")
+                {
+                    Ingredients[i].BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                    Ingredients[i].Tag = "Clicked";
+                }
+
+            }
+                MessageBox.Show("Bedankt voor je bestelling!!!");
+            // op dit moment moeten gegevens verstuurd worden!!!
+            for (int i = 0; i < 10; i++)
+            {
+                Extra[i].Checked = false;
+                Ingredients[i].BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+                Ingredients[i].Tag = null;
+            }
+        }
+
+
+        /* Negeer dit -----> Niet verwijderen!!!!!
+         
+
+
+
+
+
+                     CheckBox[] Extra = new CheckBox[10] {CbExtraHam, CbExtraSalami, CbExtraKip, CbExtraTomaat, CbExtraKaas, CbExtraKomKommer, CbExtraSla, CbExtraAugurk, CbExtraUi, CbExtraPeper };
+            PictureBox[] Ingredients = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
             for (int i = 0; i < 10; i++)   
             {
                 if (Ingredients[i].Tag == "Clicked")
@@ -75,9 +104,13 @@ namespace Test2_Tessa
 
 
             }
-        }
 
-        private void Lsb_SelectedIndexChanged(object sender, EventArgs e)   // this code is ugly ---> needs to change
+
+
+
+    */
+
+        private void Lsb_SelectedIndexChanged(object sender, EventArgs e)   // this code is ugly ---> needs to change            speciale broodjes
         {
             ListBox listbox = (ListBox)sender;
 
@@ -121,7 +154,18 @@ namespace Test2_Tessa
 
         }
 
+        private void BtCancel_Click(object sender, EventArgs e)
+        {
+            CheckBox[] Extra = new CheckBox[10] { CbExtraHam, CbExtraSalami, CbExtraKip, CbExtraTomaat, CbExtraKaas, CbExtraKomKommer, CbExtraSla, CbExtraAugurk, CbExtraUi, CbExtraPeper };
+            PictureBox[] Ingredients = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
 
+            for (int i = 0; i < 10; i++)
+            {
+                Extra[i].Checked = false;
+                Ingredients[i].BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+                Ingredients[i].Tag = null;
+            }
 
+        }
     }
 }

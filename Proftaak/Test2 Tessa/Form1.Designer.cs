@@ -161,6 +161,7 @@
             this.BtCancel.TabIndex = 1;
             this.BtCancel.Text = "Cancel";
             this.BtCancel.UseVisualStyleBackColor = true;
+            this.BtCancel.Click += new System.EventHandler(this.BtCancel_Click);
             // 
             // CbExtraSalami
             // 
