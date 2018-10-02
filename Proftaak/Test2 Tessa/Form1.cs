@@ -22,7 +22,7 @@ namespace Test2_Tessa
 
             
 
-            PictureBox picture = (PictureBox)sender; // checks dice clicked
+            PictureBox picture = (PictureBox)sender; // change border and tag if picture is clicked
             if (picture.Tag != "Clicked")
             {
                 picture.Tag = "Clicked";
@@ -40,21 +40,35 @@ namespace Test2_Tessa
 
 
 
-        private void BtOrder_Click(object sender, EventArgs e)
+        private void CbExtraSalami_CheckedChanged(object sender, EventArgs e) // checks if extra is checked
         {
-            PictureBox[] boxes = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
+            CheckBox CBextra = (CheckBox)sender;
+
+            if (CBextra.Tag != "Checked")
+            {
+                CBextra.Tag = "Checked";
+            }
+
+            else
+            {
+                CBextra.Tag = null;
+            }
+        }
+
+
+        
+        private void BtOrder_Click(object sender, EventArgs e) // shows order
+        {
+
+            PictureBox[] ingredients = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
             for (int i = 0; i < 10; i++)
             {
-                if (boxes[i].Tag == "Clicked")
+                if (ingredients[i].Tag == "Clicked")
                 {
-                    MessageBox.Show(boxes[i].Name.ToString());
+                    MessageBox.Show(ingredients[i].Name.ToString());
                 }
             }
         }
 
-        private void CbExtraSalami_CheckedChanged(object sender, EventArgs e)
-        {
-            Button BnExtra = (Button)sender;
-        }
     }
 }
