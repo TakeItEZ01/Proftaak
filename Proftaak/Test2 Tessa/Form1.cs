@@ -72,45 +72,8 @@ namespace Test2_Tessa
         }
 
 
-        /* Negeer dit -----> Niet verwijderen!!!!!
-         
 
-
-
-
-
-                     CheckBox[] Extra = new CheckBox[10] {CbExtraHam, CbExtraSalami, CbExtraKip, CbExtraTomaat, CbExtraKaas, CbExtraKomKommer, CbExtraSla, CbExtraAugurk, CbExtraUi, CbExtraPeper };
-            PictureBox[] Ingredients = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
-            for (int i = 0; i < 10; i++)   
-            {
-                if (Ingredients[i].Tag == "Clicked")
-                {
-                    MessageBox.Show(Ingredients[i].Name.ToString());
-                }
-
-               if (Extra[i].Checked == true && Ingredients[i].Tag == "Clicked")
-               {
-                    MessageBox.Show(Extra[i].Name.ToString());
-
-               }
-
-                if (Extra[i].Checked == true && Ingredients[i].Tag != "Clicked")
-                {
-                    Ingredients[i].BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-                    MessageBox.Show(Ingredients[i].Name.ToString());
-                    MessageBox.Show(Extra[i].Name.ToString());
-                    Ingredients[i].Tag = "Clicked";
-                }
-
-
-            }
-
-
-
-
-    */
-
-        private void Lsb_SelectedIndexChanged(object sender, EventArgs e)   // this code is ugly ---> needs to change            speciale broodjes
+        private void Lsb_SelectedIndexChanged(object sender, EventArgs e)   //  code is ugly ---> needs to change            speciale broodjes
         {
             ListBox listbox = (ListBox)sender;
 
@@ -147,9 +110,10 @@ namespace Test2_Tessa
 
 
 
+     
 
 
-        private void CbExtraKomkommer(object sender, EventArgs e) // ignore this
+    private void CbExtraKomkommer(object sender, EventArgs e) // ignore this
         {
 
         }
