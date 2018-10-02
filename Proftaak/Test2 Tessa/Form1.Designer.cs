@@ -92,7 +92,7 @@
             // 
             this.Lsb.FormattingEnabled = true;
             this.Lsb.Items.AddRange(new object[] {
-            "special ",
+            "Broodje kaas",
             "enzo ",
             "die al ",
             "samen ",
@@ -101,6 +101,7 @@
             this.Lsb.Name = "Lsb";
             this.Lsb.Size = new System.Drawing.Size(174, 433);
             this.Lsb.TabIndex = 30;
+            this.Lsb.SelectedIndexChanged += new System.EventHandler(this.Lsb_SelectedIndexChanged);
             // 
             // groupBox2
             // 

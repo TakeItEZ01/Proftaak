@@ -89,5 +89,20 @@ namespace Test2_Tessa
         {
 
         }
+
+
+
+
+        private void Lsb_SelectedIndexChanged(object sender, EventArgs e) //broodje kaas
+        {
+            ListBox listbox = (ListBox)sender;
+            if (listbox.SelectedIndex == 0)
+            {
+                PbKaas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                PbKaas.Tag = "Clicked";
+                CbExtraKaas.Checked = true;
+
+            }
+        }
     }
 }
