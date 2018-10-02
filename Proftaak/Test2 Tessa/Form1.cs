@@ -36,8 +36,25 @@ namespace Test2_Tessa
             }
         }
 
+
+
+
+
         private void BtOrder_Click(object sender, EventArgs e)
         {
+            PictureBox[] boxes = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
+            for (int i = 0; i < 10; i++)
+            {
+                if (boxes[i].Tag == "Clicked")
+                {
+                    MessageBox.Show(boxes[i].Name.ToString());
+                }
+            }
+        }
+
+        private void CbExtraSalami_CheckedChanged(object sender, EventArgs e)
+        {
+            Button BnExtra = (Button)sender;
         }
     }
 }

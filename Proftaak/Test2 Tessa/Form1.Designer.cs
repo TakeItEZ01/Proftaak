@@ -152,6 +152,7 @@
             this.CbExtraSla.TabIndex = 28;
             this.CbExtraSla.Text = "Extra";
             this.CbExtraSla.UseVisualStyleBackColor = true;
+            this.CbExtraSla.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // BtCancel
             // 
@@ -171,6 +172,7 @@
             this.CbExtraSalami.TabIndex = 29;
             this.CbExtraSalami.Text = "Extra";
             this.CbExtraSalami.UseVisualStyleBackColor = true;
+            this.CbExtraSalami.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // CbExtraKip
             // 
@@ -181,6 +183,7 @@
             this.CbExtraKip.TabIndex = 24;
             this.CbExtraKip.Text = "Extra";
             this.CbExtraKip.UseVisualStyleBackColor = true;
+            this.CbExtraKip.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // BtOrder
             // 
@@ -201,6 +204,7 @@
             this.CbExtraKaas.TabIndex = 23;
             this.CbExtraKaas.Text = "Extra";
             this.CbExtraKaas.UseVisualStyleBackColor = true;
+            this.CbExtraKaas.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // CbExtraHam
             // 
@@ -211,6 +215,7 @@
             this.CbExtraHam.TabIndex = 25;
             this.CbExtraHam.Text = "Extra";
             this.CbExtraHam.UseVisualStyleBackColor = true;
+            this.CbExtraHam.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // PbSla
             // 
@@ -269,6 +274,7 @@
             this.CbExtraPeper.TabIndex = 27;
             this.CbExtraPeper.Text = "Extra";
             this.CbExtraPeper.UseVisualStyleBackColor = true;
+            this.CbExtraPeper.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // PbPeper
             // 
@@ -292,6 +298,7 @@
             this.CbExtraTomaat.TabIndex = 20;
             this.CbExtraTomaat.Text = "Extra";
             this.CbExtraTomaat.UseVisualStyleBackColor = true;
+            this.CbExtraTomaat.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // LbSla
             // 
@@ -332,6 +339,7 @@
             this.CbExtraUi.TabIndex = 26;
             this.CbExtraUi.Text = "Extra";
             this.CbExtraUi.UseVisualStyleBackColor = true;
+            this.CbExtraUi.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // LbAugurk
             // 
@@ -427,12 +435,13 @@
             // CbExtraAugurk
             // 
             this.CbExtraAugurk.AutoSize = true;
-            this.CbExtraAugurk.Location = new System.Drawing.Point(252, 301);
+            this.CbExtraAugurk.Location = new System.Drawing.Point(249, 301);
             this.CbExtraAugurk.Name = "CbExtraAugurk";
             this.CbExtraAugurk.Size = new System.Drawing.Size(50, 17);
             this.CbExtraAugurk.TabIndex = 22;
             this.CbExtraAugurk.Text = "Extra";
             this.CbExtraAugurk.UseVisualStyleBackColor = true;
+            this.CbExtraAugurk.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // LbKomkommer
             // 
@@ -452,6 +461,7 @@
             this.CbExtraKomKommer.TabIndex = 21;
             this.CbExtraKomKommer.Text = "Extra";
             this.CbExtraKomKommer.UseVisualStyleBackColor = true;
+            this.CbExtraKomKommer.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
             // 
             // LbHam
             // 
