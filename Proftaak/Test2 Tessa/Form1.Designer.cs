@@ -152,7 +152,7 @@
             this.CbExtraSla.TabIndex = 28;
             this.CbExtraSla.Text = "Extra";
             this.CbExtraSla.UseVisualStyleBackColor = true;
-            this.CbExtraSla.CheckedChanged += new System.EventHandler(this.CbExtraSalami_CheckedChanged);
+            this.CbExtraSla.CheckedChanged += new System.EventHandler(this.CbExtraKomkommer);
             // 
             // BtCancel
             // 

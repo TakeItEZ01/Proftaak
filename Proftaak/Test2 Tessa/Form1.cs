@@ -44,31 +44,36 @@ namespace Test2_Tessa
         {
             CheckBox CBextra = (CheckBox)sender;
 
-            if (CBextra.Tag != "Checked")
-            {
-                CBextra.Tag = "Checked";
-            }
-
-            else
-            {
-                CBextra.Tag = null;
-            }
         }
+        //CbExtra
 
 
-        
         private void BtOrder_Click(object sender, EventArgs e) // shows order
         {
-
-            PictureBox[] ingredients = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
-            for (int i = 0; i < 10; i++)
+            CheckBox[] Extra = new CheckBox[10] {CbExtraHam, CbExtraSalami, CbExtraKip, CbExtraTomaat, CbExtraKaas, CbExtraKomKommer, CbExtraSla, CbExtraAugurk, CbExtraUi, CbExtraPeper };
+            PictureBox[] Ingredients = new PictureBox[10] { PbHam, PbSalami, PbKip, PbTomaat, PbKaas, PbKomkommer, PbSla, PbAugurk, PbUi, PbPeper };
+            for (int i = 0; i < 10; i++)   n
             {
-                if (ingredients[i].Tag == "Clicked")
+                if (Ingredients[i].Tag == "Clicked")
                 {
-                    MessageBox.Show(ingredients[i].Name.ToString());
+                    MessageBox.Show(Ingredients[i].Name.ToString());
                 }
+
+               if (Extra[i].Checked == true)
+               {
+                    MessageBox.Show(Extra[i].Name.ToString());
+
+               }
+
             }
         }
 
+
+
+
+        private void CbExtraKomkommer(object sender, EventArgs e) // ignore this
+        {
+
+        }
     }
 }
