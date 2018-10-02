@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Test_TESSA.Properties
+namespace Test_NameChange_TESSA.Properties
 {
 
 

@@ -45,7 +45,7 @@ namespace Test2_Tessa
             CheckBox CBextra = (CheckBox)sender;
 
         }
-        //CbExtra
+
 
 
         private void BtOrder_Click(object sender, EventArgs e) // shows order
@@ -59,14 +59,28 @@ namespace Test2_Tessa
                     MessageBox.Show(Ingredients[i].Name.ToString());
                 }
 
-               if (Extra[i].Checked == true)
+               if (Extra[i].Checked == true && Ingredients[i].Tag == "Clicked")
                {
                     MessageBox.Show(Extra[i].Name.ToString());
 
                }
 
+                if (Extra[i].Checked == true && Ingredients[i].Tag != "Clicked")
+                {
+                    Ingredients[i].BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+                    MessageBox.Show(Ingredients[i].Name.ToString());
+                    MessageBox.Show(Extra[i].Name.ToString());
+                    Ingredients[i].Tag = "Clicked";
+                }
+
+
             }
         }
+
+
+
+
+
 
 
 
